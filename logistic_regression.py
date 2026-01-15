@@ -27,5 +27,5 @@ class Logistic:
 
 def logistic_regression(x_train,y_train,x_test):
     model = Logistic(0.05)
-    model.train(x_train, y_train, 500)
+    model.train(x_train, y_train, 10000)
     return model.predict(x_test)
